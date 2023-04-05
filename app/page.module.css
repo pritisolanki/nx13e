@@ -6,7 +6,18 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.herosection{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  padding-bottom: 20px;
+}
 
+.listing{
+  padding: 20px;
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -150,6 +161,20 @@
   );
   background-clip: content-box;
 }
+
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff70;
+}
+  
+.nav ul li {
+    float: left;
+    padding: 10px;
+  }
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

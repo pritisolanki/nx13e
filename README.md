@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Topic explored
+- Set up Layout (app/layout.js)
+- Set up new page (app/about/page.js)
+- Set up Layout at page level (app/about/layout.js)
+- Set up Error and loading message at page level
+- Add page specific metadata using Next.js metadata api 
+
 ## Getting Started
 
 First, run the development server:
