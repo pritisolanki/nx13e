@@ -2,10 +2,10 @@ import styles from '../page.module.css'
 
 export const metadata = {
     title: 'About us',
-    description: 'This is the app setup to explore if we can configure separate meta tags per page',
+    description: 'How to integrate metadata api at page level in next13.2',
     openGraph: {
       title: 'Next 13.2 app - About us',
-      description: 'This is the app setup to explore if we can configure separate meta tags per page',
+      description: 'How to integrate metadata api at page level in next13.2',
     },
 };
 

@@ -2,12 +2,13 @@ import './globals.css'
 import styles from './page.module.css'
 
 /* Automatically render in the page - head.js is replaced with metadata */
+
 export const metadata = {
   title: 'Next13.2  app',
-  description: 'This is the app setup to explore next13.2',
+  description: 'How to integrate metadata api in next13.2',
   openGraph: {
     title: 'Next13.2 app',
-    description: 'This is the app setup to explore next13.2',
+    description: 'How to integrate metadata api in next13.2',
   },
 };
 
