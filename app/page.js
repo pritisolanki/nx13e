@@ -10,16 +10,14 @@ export default function Home() {
         Hello next 13.2 - Exploring Experimental Features
       </h2>
       <p className={styles.listing}>
-        <p>
-          In this app setup I have explored how to 
-        </p>
-        <ul>
+          In this app setup I have explored how to <br/><br/>
+          <ul>
             <li>Set up Layout (app/layout.js)</li>
             <li>Set up new page (app/about/page.js)</li>
             <li>Set up Layout at page level (app/about/layout.js)</li>
             <li>Set up Error and loading message at page level</li>
             <li>Add page specific metadata using Next.js metadata api </li>
-        </ul>
+          </ul>  
       </p>
     </main>
   )
